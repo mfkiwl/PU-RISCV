@@ -40,7 +40,7 @@
 -- *
 -- * =============================================================================
 -- * Author(s):
--- *   Francisco Javier Reina Campo <frareicam@gmail.com>
+-- *   Paco Reina Campo <pacoreinacampo@queenfield.tech>
 -- */
 
 
@@ -48,7 +48,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-use work.riscv_mpsoc_pkg.all;
+use work.riscv_defines.all;
 
 entity riscv_memmisaligned is
   generic (

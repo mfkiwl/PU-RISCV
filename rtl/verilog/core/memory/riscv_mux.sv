@@ -37,10 +37,10 @@
  *
  * =============================================================================
  * Author(s):
- *   Francisco Javier Reina Campo <frareicam@gmail.com>
+ *   Paco Reina Campo <pacoreinacampo@queenfield.tech>
  */
 
-`include "riscv_mpsoc_pkg.sv"
+`include "riscv_defines.sv"
 
 module riscv_mux #(
   parameter XLEN  = 64,

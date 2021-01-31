@@ -45,10 +45,11 @@
 all: build simulate
 
 build:
-	xvlog -i ../../../../../rtl/verilog/pkg -prj system.prj
+	xvhdl -prj system.prj
 
 simulate:
 	xelab riscv_testbench_ahb3
+	xsim -R riscv_testbench_ahb3
 
 clean:
-	rm -rf *.dir *.jou *.log *.pb
+	rm -rf *.dir *.jou *.log *.pb .Xil
